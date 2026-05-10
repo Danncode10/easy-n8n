@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x /Users/lesterdannlopez/Desktop/n8n/start.sh /Users/lesterdannlopez/Desktop/n8n/stop.sh)"
+    ]
+  }
+}

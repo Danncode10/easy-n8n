@@ -1,0 +1,74 @@
+# N8N Local Setup - Git Ignore Rules
+
+# Node.js
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# N8N Data and Configuration
+.n8n/
+.n8n-data/
+data/
+credentials/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+.temp/
+.cache/
+
+# Backups
+*.backup
+*.bak
+*.backup.*
+
+# System files
+.keep
+.gitkeep
+
+# N8N specific
+.n8n-config/
+*.sqlite
+*.db
+migrations/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Dependencies lock files (optional)
+# Uncomment if you want to use lockfiles
+# package-lock.json
+# yarn.lock
